@@ -1,52 +1,83 @@
 body {
+  background-image: url("/img/white-brick-background.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
   color: rgb(0, 0, 0);
 }
+
+.upper-left-section {
+  width: 50%;
+  height: 80%;
+  float: left;
+}
+
 .name-div {
   border: 2px solid black;
   text-align: center;
   text-transform:uppercase;
-  width:50%;
+  width:100%;
   margin: 5px;
   box-sizing: content-box;
-  float: left;
+  /* float: left; */
 }
 
-.headshot-div {
-  width: 15%;
-  box-sizing: content-box;
+.about-me-div {
+  border: 2px solid black;
+  float: left;
+  width: 75%;
+  /* center in its parent div */
+}
+
+.upper-right-section {
+  width: 50%;
+  height: 80%;
   float: right;
 }
 
-.headshot-div img {
-  width: 100%;
+.media-div {
+  width: 75%;
+  box-sizing: content-box;
+  /* center in its div */
+  /* float: right; */
+}
+
+.media-div img {
+  width: 50%;
+  border-radius: 10%;
   /* center in parent div */
 }
 
-.contact-links-div {
-  box-sizing: content-box;
-  padding: 2px;
+#headshot {
   width:50%;
-  /* center the let's connect in its parent div*/
+  border-radius: 20%;
+}
+
+.contact-links-div {
+  padding: 2px;
+  width:100%;
+  box-sizing: content-box;
 }
 
 .contact-links-div img {
-  width: 30%;
+  width: 10%;
+/* add padding and center in its div */
 }
 
 .contact-links-div p {
   text-align: center;
   font-weight: bold;
 }
-
-.about-me-div {
-  border: 2px solid black;
-  float: left;
-  width: 50%;
-}
+/* stack headshot and contact links ontop of eachother? */
 
 .resume-div {
   border: 2px solid black;
-  width: 10%;
+  width: 50%;
+}
+
+.bottom-section {
+  width: 100%;
+  height: 20%;
+  box-sizing: content-box;
 }
 
 .featured-projects-div {
@@ -58,7 +89,16 @@ body {
   width:25%;
 }
 /* need to make the pics with their title and the info into divs too */
+.featured-projects-div div {
+  border: 1px solid black;
+  width: 20%;
+  float: right;
+}
 
 .bold {
   font-weight: bold;
+}
+
+.centered-text {
+  text-align: center;
 }

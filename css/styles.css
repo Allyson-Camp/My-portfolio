@@ -1,0 +1,64 @@
+body {
+  color: rgb(0, 0, 0);
+}
+.name-div {
+  border: 2px solid black;
+  text-align: center;
+  text-transform:uppercase;
+  width:50%;
+  margin: 5px;
+  box-sizing: content-box;
+  float: left;
+}
+
+.headshot-div {
+  width: 15%;
+  box-sizing: content-box;
+  float: right;
+}
+
+.headshot-div img {
+  width: 100%;
+  /* center in parent div */
+}
+
+.contact-links-div {
+  box-sizing: content-box;
+  padding: 2px;
+  width:50%;
+  /* center the let's connect in its parent div*/
+}
+
+.contact-links-div img {
+  width: 30%;
+}
+
+.contact-links-div p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-me-div {
+  border: 2px solid black;
+  float: left;
+  width: 50%;
+}
+
+.resume-div {
+  border: 2px solid black;
+  width: 10%;
+}
+
+.featured-projects-div {
+   border: 2px solid black;
+   width: 60%;
+}
+
+.featured-projects-div img {
+  width:25%;
+}
+/* need to make the pics with their title and the info into divs too */
+
+.bold {
+  font-weight: bold;
+}

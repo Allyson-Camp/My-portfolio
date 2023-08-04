@@ -20,11 +20,11 @@ This site is the landingpage for my portfolio website. It is meant to highlight 
 
 ## Setup/Installation Requirements
 
-*_Go to this link_*
+*_Go to [This Link](https://github.com/Allyson-Camp/My-portfolio)_*
 
 *_Clone the repository to your desktop_*
 
-*_Open all files in My-portfolio_*
+*_Open all files in My-portfolio in your code editor of choice_*
 
 ## Known Bugs
 

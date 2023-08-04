@@ -9,6 +9,8 @@ body {
   width: 45%;
   height: 80vh;
   float: left;
+  margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
 .name-div {
@@ -16,61 +18,58 @@ body {
   text-align: center;
   text-transform: uppercase;
   width: 100%;
-  margin: 5px;
-  box-sizing: content-box;
-  /* float: left; */
+  margin: 10px;
+  box-sizing: border-box;
 }
 
 .about-me-div {
   background-color: rgba(92, 81, 109, 0.25);
-  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: auto;
   width: 100%;
-  /* center in its parent div */
+display: block;
+box-sizing: border-box;
 }
 
 .upper-right-section {
   width: 45%;
   height: 80vh;
-  background-color: rgba(92, 81, 109, 0.25);
+  margin-bottom: 10px;
   float: right;
 }
 
-.media-div {
-  width: 100%;
-  box-sizing: content-box;
-  /* center in upper div */
-  /* float: right; */
-}
-
-.media-div img {
-  /* width: ; */
-  border-radius: 10%;
-  /* center in media div */
+.headshot-div {
+  background-color: rgba(92, 81, 109, 0.25);
+  border-radius:5%;
+  margin: auto;
+  width: 40%;
+  display: block;
+  box-sizing: border-box;
 }
 
 #headshot {
-  width: 20%;
   border-radius: 46%;
   opacity: 90%;
+  margin: auto;
+  width: 100%;
+  display: block;
 }
 
 .contact-links-div {
   padding: 2px;
   width: 100%;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 .contact-links-div img {
   width: 10%;
-  /* add padding and center in its div */
 }
 
 .contact-links-div p {
   text-align: center;
   font-weight: bold;
 }
-
-/* stack headshot and contact links ontop of eachother? */
 
 .resume-div {
   border: 2px solid black;
@@ -80,21 +79,23 @@ body {
 
 .bottom-section {
   width: 100%;
-  box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 .featured-projects-div {
   width: 100%;
+  text-align: center;
+  list-style-position: inside;
 }
 
 .featured-projects-div img {
   border-radius: 2%;
-  width: 25%;
-  width: 95%;
-  box-sizing: content-box;
+  margin: auto;
+  width: 80%;
+  display: block;
+  box-sizing: border-box;
 }
 
-/* need to make the pics with their title and the info into divs too */
 .featured-projects-div div {
   border: 2px black solid;
   border-radius: 2%;
@@ -111,5 +112,5 @@ body {
 }
 
 .opacity:hover {
-transform: scale(1.2); 
+  transform: scale(1.2);
 }

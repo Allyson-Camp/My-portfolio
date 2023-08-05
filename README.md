@@ -26,8 +26,11 @@ This site is the landingpage for my portfolio website. It is meant to highlight 
 
 *_Open all files in My-portfolio in your code editor of choice_*
 
+[gh-pages](Allyson-Camp.github.io/My-portfolio)
+
 ## Known Bugs
 
+None
 
 ## License 
 

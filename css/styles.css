@@ -5,8 +5,10 @@ body {
     color: rgb(51, 44, 63);
 }
 
+
+/* homepage */
 .upper-left-section {
-  margin-left: 20px;
+    margin-left: 20px;
     width: 45%;
     float: left;
     box-sizing: border-box;
@@ -65,9 +67,9 @@ body {
     box-sizing: border-box; */
     padding-top: 0px;
     display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
 }
 
 .contact-links-div img {
@@ -86,8 +88,32 @@ body {
     /* width: 100%; */
 }
 
-.bottom-section {
-  text-align: center;
+.bottom-div {
+    text-align: center;
+    float: right;
+    margin: auto;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+/* universal rules */
+.bold {
+    font-weight: bold;
+}
+
+.centered-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.opacity:hover {
+    transform: scale(1.2);
+}
+
+/* .bottom-section {
+    text-align: center;
     float: right;
     margin: auto;
     width: 100%;
@@ -114,21 +140,4 @@ body {
     border-radius: 2%;
     width: 20%;
     float: left;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.centered-text {
-    text-align: center;
-    font-weight: bold;
-}
-
-.opacity:hover {
-    transform: scale(1.2);
-}
-
-.project-page-link a {
-    text-decoration: none;
-}
+} */

@@ -1,16 +1,12 @@
 .featured-projects-div {
-    /* width: 100%; */
-    /* text-align: center; */
-    border: 2px black solid;
     display: flex;
-    align-items: center;
     justify-content: center;
     box-sizing: border-box;
 }
 
 .featured-projects-div img {
     border-radius: 2%;
-        box-shadow: 10px 0 10px -10px #2c1d31, -10px 0 10px -10px #2c1d31;
+    box-shadow: 10px 0 10px -10px #2c1d31, -10px 0 10px -10px #2c1d31;
     margin: auto;
     width: 80%;
     display: block;
@@ -22,8 +18,7 @@
     box-shadow: 10px 0 10px -10px #2c1d31, -10px 0 10px -10px #2c1d31;
     border-radius: 2%;
     width: 20%;
-    float: left;
-    padding: 5px;
+    padding: 25px;
     margin: 15px;
     box-sizing: border-box;
 }
@@ -31,4 +26,3 @@
 p {
     text-align: center;
 }
-

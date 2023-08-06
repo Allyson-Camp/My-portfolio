@@ -97,6 +97,10 @@ body {
     box-sizing: border-box;
 }
 
+.project-page-link button {
+   background-color: rgba(92, 81, 109, 0.25);
+   border-radius: 10px;
+}
 
 /* universal rules */
 .bold {
@@ -111,6 +115,7 @@ body {
 .opacity:hover {
     transform: scale(1.2);
 }
+
 
 /* .bottom-section {
     text-align: center;

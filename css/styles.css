@@ -6,10 +6,9 @@ body {
 }
 
 .upper-left-section {
+  margin-left: 20px;
     width: 45%;
-    /* height: 80vh; */
     float: left;
-    margin-bottom: 10px;
     box-sizing: border-box;
 }
 
@@ -88,6 +87,7 @@ body {
 }
 
 .bottom-section {
+  text-align: center;
     float: right;
     margin: auto;
     width: 100%;

@@ -5,15 +5,6 @@ body {
     color: rgb(51, 44, 63);
 }
 
-/* .top-div{
-  padding: 5px;
-  margin: auto;
-  width: 100%;
-  display: block;
-  box-sizing: border-box;
-} */
-/* doesnt do anything? trying to combine the top 2 divs into one to stack on the bottom div? */
-
 .upper-left-section {
     width: 45%;
     /* height: 80vh; */
@@ -49,8 +40,6 @@ body {
 }
 
 .headshot-div {
-    background-color: rgba(92, 81, 109, 0.25);
-    border-radius: 5%;
     margin: auto;
     width: 40%;
     display: block;
@@ -58,7 +47,7 @@ body {
 }
 
 #headshot {
-    border-radius: 46%;
+   clip-path: polygon(6% 0, 94% 0, 100% 100%, 0% 100%);
     opacity: 90%;
     margin: auto;
     width: 100%;
@@ -124,4 +113,8 @@ body {
 
 .opacity:hover {
     transform: scale(1.2);
+}
+
+.project-page-link a {
+  text-decoration: none;
 }

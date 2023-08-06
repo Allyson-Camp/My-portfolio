@@ -38,6 +38,7 @@ body {
 .upper-right-section {
     width: 45%;
     float: right;
+    box-sizing: border-box;
 }
 
 .headshot-div {
@@ -63,6 +64,7 @@ body {
     width: 100%;
     display: block;
     box-sizing: border-box; */
+    padding-top: 0px;
     display: flex;
   align-items: center;
   justify-content: center;
@@ -70,14 +72,18 @@ body {
 }
 
 .contact-links-div img {
-    width: 30%;
+    width: 40px;
+    margin: 10px;
 }
 
 .resume-div {
     background-color: rgba(92, 81, 109, 0.25);
     box-shadow: 10px 0 10px -10px #2c1d31, -10px 0 10px -10px #2c1d31;
     border-radius: 1%;
-    margin: 5px;
+    padding: 5px;
+    margin: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     /* width: 100%; */
 }
 

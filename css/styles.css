@@ -15,17 +15,20 @@ body {
 
 .name-div {
     border: 2px solid black;
+    border-radius: 1%;
     text-align: center;
     text-transform: uppercase;
-    width: 100%;
     margin: 10px;
     box-sizing: border-box;
 }
 
 .about-me-div {
     background-color: rgba(92, 81, 109, 0.25);
-    padding-left: 5px;
-    padding-right: 5px;
+    border-radius: 1%;
+    box-shadow: 10px 0 10px -10px #2c1d31, -10px 0 10px -10px #2c1d31;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+    padding: 5px;
     margin: auto;
     width: 100%;
     display: block;
@@ -34,12 +37,11 @@ body {
 
 .upper-right-section {
     width: 45%;
-    /* height: 80vh; */
-    margin-bottom: 10px;
     float: right;
 }
 
 .headshot-div {
+    padding: 5px;
     margin: auto;
     width: 40%;
     display: block;
@@ -47,35 +49,40 @@ body {
 }
 
 #headshot {
-   clip-path: polygon(6% 0, 94% 0, 100% 100%, 0% 100%);
+    box-shadow: 10px 0 10px -10px #2c1d31, -10px 0 10px -10px #2c1d31;
     opacity: 90%;
     margin: auto;
     width: 100%;
     display: block;
-}
-
-.contact-links-div {
-    padding: 2px;
-    width: 100%;
     box-sizing: border-box;
 }
 
-.contact-links-div img {
-    width: 10%;
+.contact-links-div {
+    /* padding: 2px; */
+    /* margin: auto;
+    width: 100%;
+    display: block;
+    box-sizing: border-box; */
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
-.contact-links-div p {
-    text-align: center;
-    font-weight: bold;
+.contact-links-div img {
+    width: 30%;
 }
 
 .resume-div {
-    border: 2px solid black;
+    background-color: rgba(92, 81, 109, 0.25);
+    box-shadow: 10px 0 10px -10px #2c1d31, -10px 0 10px -10px #2c1d31;
     border-radius: 1%;
-    width: 100%;
+    margin: 5px;
+    /* width: 100%; */
 }
 
 .bottom-section {
+    float: right;
     margin: auto;
     width: 100%;
     display: block;
@@ -109,6 +116,7 @@ body {
 
 .centered-text {
     text-align: center;
+    font-weight: bold;
 }
 
 .opacity:hover {
@@ -116,5 +124,5 @@ body {
 }
 
 .project-page-link a {
-  text-decoration: none;
+    text-decoration: none;
 }

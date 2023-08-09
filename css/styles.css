@@ -5,7 +5,6 @@ body {
     color: rgb(51, 44, 63);
 }
 
-
 /* homepage */
 .upper-left-section {
     margin-left: 20px;
@@ -98,8 +97,8 @@ body {
 }
 
 .project-page-link button {
-   background-color: rgba(92, 81, 109, 0.25);
-   border-radius: 10px;
+    background-color: rgba(92, 81, 109, 0.25);
+    border-radius: 10px;
 }
 
 /* universal rules */
@@ -116,33 +115,3 @@ body {
     transform: scale(1.2);
 }
 
-
-/* .bottom-section {
-    text-align: center;
-    float: right;
-    margin: auto;
-    width: 100%;
-    display: block;
-    box-sizing: border-box;
-}
-
-.featured-projects-div {
-    width: 100%;
-    text-align: center;
-    list-style-position: inside;
-}
-
-.featured-projects-div img {
-    border-radius: 2%;
-    margin: auto;
-    width: 80%;
-    display: block;
-    box-sizing: border-box;
-}
-
-.featured-projects-div div {
-    border: 2px black solid;
-    border-radius: 2%;
-    width: 20%;
-    float: left;
-} */

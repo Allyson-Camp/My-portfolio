@@ -30,11 +30,11 @@ This site is the landingpage for my portfolio website. It is meant to highlight 
 
 4. navigate to your desktop or where you want the project folder to be saved
 
-5. once in the desired folder enter: git clone https://github.com/Allyson-Camp/fighter-game.git
+5. once in the desired folder enter: git clone https://github.com/Allyson-Camp/My-portfolio.git
 
 6. Type: code . to open all files in my-portfolio
 
-[gh-pages](Allyson-Camp.github.io/My-portfolio)
+[gh-pages] Allyson-Camp.github.io/My-portfolio
 
 ## Known Bugs
 

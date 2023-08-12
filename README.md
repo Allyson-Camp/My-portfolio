@@ -24,17 +24,17 @@ This site is the landingpage for my portfolio website. It is meant to highlight 
 
 1. Go to [This Link](https://github.com/Allyson-Camp/My-portfolio)
 
-2. copy the repository url by clicking the green <> Code button: https://github.com/Allyson-Camp/My-portfolio.git
+2. Copy the repository url by clicking the green <> Code button: https://github.com/Allyson-Camp/My-portfolio.git
 
 3. Open your computer's GitBash or terminal
 
-4. navigate to your desktop or where you want the project folder to be saved
+4. Navigate to your desktop or where you want the project folder to be saved
 
-5. once in the desired folder enter: git clone https://github.com/Allyson-Camp/My-portfolio.git
+5. Once in the desired folder enter: git clone https://github.com/Allyson-Camp/My-portfolio.git
 
 6. Type: code . to open all files in my-portfolio
 
-[gh-pages] Allyson-Camp.github.io/My-portfolio
+gh-pages: https://allyson-camp.github.io/My-portfolio/
 
 ## Known Bugs
 

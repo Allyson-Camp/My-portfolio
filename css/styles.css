@@ -1,7 +1,5 @@
 body {
-    background-image: url("../img/white-brick.jpg");
-    background-repeat: no-repeat;
-    width: 100%;
+    background-color: rgba(218, 213, 223, 0.731);
     color: rgb(51, 44, 63);
 }
 

@@ -32,7 +32,9 @@ This site is the landingpage for my portfolio website. It is meant to highlight 
 
 5. Once in the desired folder enter: git clone https://github.com/Allyson-Camp/My-portfolio.git
 
-6. Type: code . to open all files in my-portfolio
+6. Type: code . to open all files in My-portfolio in your code editor of choice
+
+7. Save the project files
 
 gh-pages: https://allyson-camp.github.io/My-portfolio/
 

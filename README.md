@@ -34,7 +34,7 @@ This site is the landingpage for my portfolio website. It is meant to highlight 
 
 6. Type: code . to open all files in My-portfolio in your code editor of choice
 
-7. Save the project files
+7. Right click index.html to open the project with Live Server in your web browser of choice
 
 gh-pages: https://allyson-camp.github.io/My-portfolio/
 
